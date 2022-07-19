@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* <!-- First Heading part design starts here --> */
+header {
+  width: 85%;
+  height: 550px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+.header-text {
+  width: 35%;
+  color: white;
+
+  margin: 5% 0 0 5%;
+}
+.header-text h1 {
+  margin-top: 5px;
+  font-weight: bolder;
+  font-size: 4.5em;
+}
+.header-text p {
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 1em;
+  margin-top: 10px;
+}
+.header-image {
+  width: 42%;
+  margin-top: 3%;
+}
+.header-image img {
+  width: 95%;
+}
+.btn {
+  margin-top: 15px;
+  padding: 12px 22px;
+  background-color: #dd0000;
+  font-size: 1.3em;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Media query goes here  */
+
+/* <!-- First Heading part design ends here --> */
+
+/* main part goes here  */
+main {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 10px;
+ 
+  display: flex;
+  gap: 20px;
+}
+.navbar {
+  width: 20%;
+  height: 260px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #000;
+  border-radius: 10px;
+}
+.navbar li {
+  list-style: none;
+  margin: 0 30px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 15px;
+  background-color: #fff;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  
+}
+.player-card {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 20px;
+  column-gap: 2%;
+}
+.card{
+    width: 100%;
+    border: 1px solid rgb(218, 209, 209);
+    border-radius: 10px;
+   
+}
+.card >img{
+    width: 100%;
+}
+.card button{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 18px;
+    border-radius: 5px;
+ 
+}
+.card-text{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.icon{
+    display: flex;
+   
+}
+.icon img,p{
+    margin: 10px;
+}
+
+/* footer part  */
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #000;
+    margin-top: 100px;
+}
+.goal h1{
+    color: #fff;
+    text-align: center;
+   padding-top:40px;
+}
+.footer-links{
+    margin-top :120px; ;
+    display: flex;
+ justify-content: center;
+}
+.footer-links li a{
+   
+   text-decoration: none;
+   color: #fff;
+   font-weight: 300;
+}
