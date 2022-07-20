@@ -119,14 +119,14 @@ main {
 }
 
 .flags {
-  width: 90%;
+  width: 80%;
 
   display: flex;
   gap: 15px;
   margin: 20px auto;
 }
 .flags img {
-  width: 40%;
+  width: 35%;
 }
 .match-texts {
   text-align: center;
