@@ -35,7 +35,7 @@ header {
   margin-top: 10px;
 }
 .header-image {
-  width: 42%;
+  width: 45%;
   margin-top: 3%;
 }
 .header-image img {
@@ -82,6 +82,10 @@ main {
   text-align: center;
   padding: 10px 15px;
   background-color: #fff;
+}
+.navbar li :hover{
+  cursor: pointer;
+
 }
 
 .navbar li a {
