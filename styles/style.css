@@ -42,6 +42,8 @@ header {
   width: 90%;
   animation: up-down 2s ease-in-out infinite alternate-reverse both ;
 }
+
+/* animation */
 @keyframes up-down {
   0%{
     transform: translateY(5px);
@@ -202,6 +204,9 @@ footer {
   font-size: 1.8em;
   text-align: center;
   margin-top: 15px;
+}
+.social-media-icon a{
+  text-decoration: none;
 }
 .fa-brands{
   padding: 10px;
